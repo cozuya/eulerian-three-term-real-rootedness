@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "Q_root_boundary_identity": "PASS",
+  "positive_residue_induction_kernel": "PASS",
+  "Cayley_recurrence_n_1_through_11": "PASS",
+  "F_derivative_parity_endpoints_n_3_through_12": "PASS",
+  "positive_residue_base_case": "PASS",
+  "all_degree_proof_is_analytical": true
+}

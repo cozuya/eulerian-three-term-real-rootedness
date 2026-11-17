@@ -1,0 +1,85 @@
+{
+ "check": "07_cross_checks",
+ "status": "PASS",
+ "obstruction_in_cayley_form": {
+  "m": 12,
+  "deg_P": 13,
+  "f_simple_roots": false,
+  "P_real_roots_with_multiplicity": 11,
+  "P_real_rooted": false
+ },
+ "simple_root_perturbations": [
+  {
+   "m": 12,
+   "deg_P": 13,
+   "f_simple_roots": true,
+   "P_real_roots_with_multiplicity": 11,
+   "P_real_rooted": false,
+   "f_roots_in_(-1,1)": 11,
+   "q_roots_in_(-1,1)": 12,
+   "q_negative_roots": 6,
+   "generic_step_5_5_holds": true,
+   "positive_f_roots": 5,
+   "cor32_sum_sign_hg": -1,
+   "cor32_holds": false,
+   "step_5_6_sum_sign_Pg": -1,
+   "level_below_positive_poles": 5,
+   "level_below_residue_sign_sum": -3,
+   "eps_scale": "i/50, i=1..5"
+  },
+  {
+   "m": 12,
+   "deg_P": 13,
+   "f_simple_roots": true,
+   "P_real_roots_with_multiplicity": 13,
+   "P_real_rooted": true,
+   "f_roots_in_(-1,1)": 11,
+   "q_roots_in_(-1,1)": 12,
+   "q_negative_roots": 6,
+   "generic_step_5_5_holds": true,
+   "positive_f_roots": 5,
+   "cor32_sum_sign_hg": -1,
+   "cor32_holds": false,
+   "step_5_6_sum_sign_Pg": -1,
+   "level_below_positive_poles": 5,
+   "level_below_residue_sign_sum": -3,
+   "eps_scale": "i/20, i=1..5"
+  },
+  {
+   "m": 12,
+   "deg_P": 13,
+   "f_simple_roots": true,
+   "P_real_roots_with_multiplicity": 13,
+   "P_real_rooted": true,
+   "f_roots_in_(-1,1)": 11,
+   "q_roots_in_(-1,1)": 12,
+   "q_negative_roots": 6,
+   "generic_step_5_5_holds": true,
+   "positive_f_roots": 5,
+   "cor32_sum_sign_hg": -1,
+   "cor32_holds": false,
+   "step_5_6_sum_sign_Pg": -1,
+   "level_below_positive_poles": 5,
+   "level_below_residue_sign_sum": -3,
+   "eps_scale": "i/10, i=1..5"
+  }
+ ],
+ "random_non_eulerian_seeds": {
+  "tested": 594,
+  "cor32_analogue_true": 85,
+  "P_not_real_rooted": 102,
+  "cor32_true_but_not_real_rooted": 0
+ },
+ "lemma_3_1_step_is_generic": {
+  "seeds_with_positive_residues": 54,
+  "next_level_positive": 54
+ },
+ "eulerian_test_points_m_2_40": {
+  "B_route_inequality_holds_all": true,
+  "A_route_cor32_holds_all": true
+ }
+}
+
+real	0m1.551s
+user	0m1.506s
+sys	0m0.016s

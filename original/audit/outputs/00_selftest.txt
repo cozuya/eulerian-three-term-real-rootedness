@@ -1,0 +1,12 @@
+{
+ "check": "00_selftest",
+ "status": "PASS",
+ "known_root_cases": 300,
+ "tarski_cases": 296,
+ "sympy_comparisons": 200,
+ "merged_order_cases": 100
+}
+
+real	0m0.792s
+user	0m0.711s
+sys	0m0.044s

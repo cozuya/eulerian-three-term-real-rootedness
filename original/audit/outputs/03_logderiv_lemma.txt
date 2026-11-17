@@ -1,0 +1,53 @@
+{
+ "check": "03_logderiv_lemma",
+ "status": "PASS",
+ "symbolic": [
+  "pair formula",
+  "N(u,a) decomposition",
+  "root at zero",
+  "bracket = f^2 E"
+ ],
+ "random_exact_trials": 3999,
+ "min_E_seen": 0.41507493984728144,
+ "eulerian_bracket_positive_on_(-1,0)_for_m": [
+  2,
+  40
+ ],
+ "eulerian_bracket_exactly_one_root_in_(0,1)_then_negative_for_m": [
+  2,
+  40
+ ],
+ "sample": [
+  {
+   "m": 2,
+   "Br_roots_in_(-1,0)": 0,
+   "Br_distinct_roots_in_(0,1)": 1,
+   "sign_Br(1)": -1
+  },
+  {
+   "m": 3,
+   "Br_roots_in_(-1,0)": 0,
+   "Br_distinct_roots_in_(0,1)": 1,
+   "sign_Br(1)": -1
+  },
+  {
+   "m": 4,
+   "Br_roots_in_(-1,0)": 0,
+   "Br_distinct_roots_in_(0,1)": 1,
+   "sign_Br(1)": -1
+  },
+  {
+   "m": 39,
+   "Br_roots_in_(-1,0)": 0,
+   "Br_distinct_roots_in_(0,1)": 1,
+   "sign_Br(1)": -1
+  },
+  {
+   "m": 40,
+   "Br_roots_in_(-1,0)": 0,
+   "Br_distinct_roots_in_(0,1)": 1,
+   "sign_Br(1)": -1
+  }
+ ],
+ "positive_side_counterexample": "f=z, z=1/2: E=-1"
+}

@@ -1,0 +1,16 @@
+certified full-bound reduction for n 4
+certified full-bound reduction for n 5
+certified full-bound reduction for n 6
+certified full-bound reduction for n 7
+certified full-bound reduction for n 8
+certified full-bound reduction for n 9
+certified full-bound reduction for n 10
+certified full-bound reduction for n 11
+certified full-bound reduction for n 12
+certified full-bound reduction for n 13
+certified full-bound reduction for n 14
+certified full-bound reduction for n 15
+certified full-bound reduction for n 16
+certified full-bound reduction for n 17
+PASS 14 finite-degree certificates; not an all-degree proof
+exit=0 seconds=2

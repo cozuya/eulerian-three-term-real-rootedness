@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "C": "z**2 - 3/20",
+  "T2C_over_F": "20 + 1/(10*(z**2 - 3/20)) + 4/(z**2 - 1)",
+  "Q_integer": "100*z**3 + 20*z**2 - 49*z - 3",
+  "E_numerator_integer": "-20*z**4 - 40*z**3 + 17*z**2 + 6*z + 3",
+  "isolating_interval": [
+    "1279/2000",
+    "1599/2500"
+  ],
+  "Q_left": "-262961/80000000",
+  "Q_right": "1037799/156250000",
+  "Q_root_count": 1,
+  "E_numerator_left": "-13478933281/800000000000",
+  "E_numerator_roots_in_interval": 0,
+  "original_analogue_real_root_count": 4,
+  "conclusion": "Positive square-variable residues do not imply the proposed H>=0 auxiliary inequality at every Q_alpha root, even alpha=1. This is not a counterexample to the Eulerian target."
+}

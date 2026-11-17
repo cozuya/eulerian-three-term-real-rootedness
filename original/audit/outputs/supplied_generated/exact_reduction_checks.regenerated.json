@@ -1,0 +1,605 @@
+{
+  "python": "3.13.18",
+  "sympy": "1.14.0",
+  "permutation_enumeration": [
+    {
+      "n": 1,
+      "coefficients_constant_first": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 2,
+      "coefficients_constant_first": [
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 3,
+      "coefficients_constant_first": [
+        1,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 4,
+      "coefficients_constant_first": [
+        1,
+        11,
+        11,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 5,
+      "coefficients_constant_first": [
+        1,
+        26,
+        66,
+        26,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 6,
+      "coefficients_constant_first": [
+        1,
+        57,
+        302,
+        302,
+        57,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "n": 7,
+      "coefficients_constant_first": [
+        1,
+        120,
+        1191,
+        2416,
+        1191,
+        120,
+        1
+      ],
+      "passed": true
+    }
+  ],
+  "n4_discriminant": "12*b**4 + 4*b**3*c + 120*b**3 + b**2*c**2 - 36*b**2*c + 1332*b**2 - 8*b*c**2 + 96*b*c + 3840*b - 4*c**3 + 160*c**2 - 1792*c + 6144",
+  "n4_positive_substitution": "b**6*t**2/16 + b**5*t**3/4 + 2*b**5*t**2 + b**5*t + 41*b**4*t**3/4 + 69*b**4*t**2/2 + 31*b**4*t + 12*b**4 + 164*b**3*t**3 + 426*b**3*t**2 + 360*b**3*t + 120*b**3 + 1170*b**2*t**3 + 3437*b**2*t**2 + 3536*b**2*t + 1332*b**2 + 3116*b*t**3 + 9400*b*t**2 + 10016*b*t + 3840*b + 2100*t**3 + 9120*t**2 + 13056*t + 6144",
+  "n4_substitution": "c=(b**2/4+b+3)*t/(1+t), b,t>=0; equality handled separately",
+  "n4_boundary_discriminant": "(b + 1)*(b**4 + 40*b**3 + 616*b**2 + 4064*b + 8400)/4",
+  "reciprocal_pair_identity_verified": true,
+  "full_bound_all_real_parameter_degrees": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "finite_degree_certificates": [
+    {
+      "m": 2,
+      "n": 4,
+      "N_coefficients_highest_first": [
+        "-2",
+        "4",
+        "2",
+        "0"
+      ],
+      "N_degree": 3,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-22619537/54608393",
+        "-15994428/38613965"
+      ],
+      "Q1_largest_root_interval": [
+        "-16375393/37348610",
+        "-25571041/58321827"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 3,
+      "n": 5,
+      "N_coefficients_highest_first": [
+        "-6",
+        "0",
+        "24",
+        "48",
+        "6",
+        "0"
+      ],
+      "N_degree": 5,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-6166887/46046231",
+        "-5003872/37362359"
+      ],
+      "Q1_largest_root_interval": [
+        "-14499409/95736083",
+        "-2051420/13545029"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 4,
+      "n": 6,
+      "N_coefficients_highest_first": [
+        "-14",
+        "-60",
+        "-86",
+        "744",
+        "822",
+        "308",
+        "14",
+        "0"
+      ],
+      "N_degree": 7,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-2769921/52816240",
+        "-1505006/28697121"
+      ],
+      "Q1_largest_root_interval": [
+        "-2659337/43003215",
+        "-1621961/26228168"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 5,
+      "n": 7,
+      "N_coefficients_highest_first": [
+        "-30",
+        "-360",
+        "-2700",
+        "2280",
+        "18960",
+        "27240",
+        "10620",
+        "1560",
+        "30",
+        "0"
+      ],
+      "N_degree": 9,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-1468477/65340803",
+        "-352974/15705799"
+      ],
+      "Q1_largest_root_interval": [
+        "-555878/20341627",
+        "-1791335/65551557"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 6,
+      "n": 8,
+      "N_coefficients_highest_first": [
+        "-62",
+        "-1540",
+        "-28106",
+        "-70352",
+        "118612",
+        "855880",
+        "1069420",
+        "541936",
+        "99082",
+        "7068",
+        "62",
+        "0"
+      ],
+      "N_degree": 11,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-916661/90461572",
+        "-151389/14939969"
+      ],
+      "Q1_largest_root_interval": [
+        "-583211/46249448",
+        "-341833/27107835"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 7,
+      "n": 9,
+      "N_coefficients_highest_first": [
+        "-126",
+        "-5712",
+        "-219744",
+        "-1558368",
+        "-3359286",
+        "11215008",
+        "45762192",
+        "59508288",
+        "32232438",
+        "8020656",
+        "783888",
+        "30240",
+        "126",
+        "0"
+      ],
+      "N_degree": 13,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-223752/47446633",
+        "-243095/51548318"
+      ],
+      "Q1_largest_root_interval": [
+        "-299327/50120580",
+        "-271972/45540143"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 8,
+      "n": 10,
+      "N_coefficients_highest_first": [
+        "-254",
+        "-19628",
+        "-1508398",
+        "-21069544",
+        "-126577558",
+        "-118993796",
+        "953423610",
+        "3293758608",
+        "4111536198",
+        "2467628684",
+        "715957430",
+        "100018648",
+        "5637070",
+        "125476",
+        "254",
+        "0"
+      ],
+      "N_degree": 15,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-206612/92192147",
+        "-199021/88804974"
+      ],
+      "Q1_largest_root_interval": [
+        "-187177/65091049",
+        "-219351/76279600"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 9,
+      "n": 11,
+      "N_coefficients_highest_first": [
+        "-510",
+        "-64440",
+        "-9683220",
+        "-233754120",
+        "-2661790260",
+        "-10598790840",
+        "-2681297940",
+        "100945777080",
+        "289394244000",
+        "360029535000",
+        "228069258660",
+        "76805319720",
+        "13237774740",
+        "1119909720",
+        "38205060",
+        "512040",
+        "510",
+        "0"
+      ],
+      "N_degree": 17,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-74627/69074528",
+        "-79776/73840427"
+      ],
+      "Q1_largest_root_interval": [
+        "-82328/58808449",
+        "-94271/67339560"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 10,
+      "n": 12,
+      "N_coefficients_highest_first": [
+        "-1022",
+        "-205524",
+        "-59995442",
+        "-2329533472",
+        "-44677406040",
+        "-346209666224",
+        "-1066884662728",
+        "720652858656",
+        "12218606580316",
+        "31342175875080",
+        "38291673472164",
+        "25603601623328",
+        "9578319947464",
+        "1989863298384",
+        "217040975960",
+        "11680548832",
+        "249178674",
+        "2070572",
+        "1022",
+        "0"
+      ],
+      "N_degree": 19,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-20881/39692010",
+        "-19291/36669631"
+      ],
+      "Q1_largest_root_interval": [
+        "-13707/19961419",
+        "-137972/200927767"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 11,
+      "n": 13,
+      "N_coefficients_highest_first": [
+        "-2046",
+        "-643104",
+        "-364908456",
+        "-21741929616",
+        "-662396409642",
+        "-8491055599488",
+        "-52036856702688",
+        "-114661446569472",
+        "213453724095348",
+        "1744422268898496",
+        "4054577100470160",
+        "4905500298360288",
+        "3409609988016012",
+        "1398252830189952",
+        "334703938999584",
+        "45469034675328",
+        "3276207347754",
+        "116101720416",
+        "1584057816",
+        "8331312",
+        "2046",
+        "0"
+      ],
+      "N_degree": 21,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-23623/91562801",
+        "-26743/103655928"
+      ],
+      "Q1_largest_root_interval": [
+        "-17788/52535049",
+        "-14843/43837291"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 12,
+      "n": 14,
+      "N_coefficients_highest_first": [
+        "-4094",
+        "-1986556",
+        "-2199122966",
+        "-194414283000",
+        "-9090579963442",
+        "-179139376828572",
+        "-1791958193016906",
+        "-8565161409186336",
+        "-13088768035746540",
+        "51230108421467656",
+        "287881532205126500",
+        "620923722493995184",
+        "742518412036147164",
+        "534098292474197480",
+        "235852011535635564",
+        "63725353564269792",
+        "10274976374473674",
+        "950001745405044",
+        "46637936497810",
+        "1116321838472",
+        "9895808374",
+        "33431604",
+        "4094",
+        "0"
+      ],
+      "N_degree": 23,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-4103/32261799",
+        "-7431/58429790"
+      ],
+      "Q1_largest_root_interval": [
+        "-20106/119976895",
+        "-1817/10842436"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 13,
+      "n": 15,
+      "N_coefficients_highest_first": [
+        "-8190",
+        "-6082440",
+        "-13197185820",
+        "-1688351366520",
+        "-118560306348120",
+        "-3439868658571800",
+        "-51895248172955460",
+        "-406545590347926120",
+        "-1568729184756855030",
+        "-1339262199953430480",
+        "12302517645525492840",
+        "54786500244191635920",
+        "110862226693111027680",
+        "131348748988108775760",
+        "97142175867760765560",
+        "45723078219731356080",
+        "13660223297522296950",
+        "2547842602293195480",
+        "286899882907446900",
+        "18588593118786600",
+        "636293740675320",
+        "10488117374280",
+        "61079616780",
+        "133955640",
+        "8190",
+        "0"
+      ],
+      "N_degree": 25,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-3136/49836567",
+        "-4121/65489953"
+      ],
+      "Q1_largest_root_interval": [
+        "-20372/244955699",
+        "-397/4773582"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 14,
+      "n": 16,
+      "N_coefficients_highest_first": [
+        "-16382",
+        "-18509348",
+        "-79067096026",
+        "-14362942290416",
+        "-1493822020406756",
+        "-61975911873599656",
+        "-1349669664845930876",
+        "-15763185392217453296",
+        "-100930468886446020586",
+        "-312834460770941791676",
+        "-43905297130835179406",
+        "3164977435714412573984",
+        "11906711390168571146344",
+        "22851994025870684378704",
+        "26834263096082457328664",
+        "20329710475965705848224",
+        "10102470377294773809934",
+        "3291446547319662560804",
+        "693815068061456793514",
+        "92350834643267990224",
+        "7460405286129935804",
+        "346333502270142424",
+        "8413952467525924",
+        "96960933928784",
+        "373844720794",
+        "536313916",
+        "16382",
+        "0"
+      ],
+      "N_degree": 27,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-1862/59642301",
+        "-1579/50577440"
+      ],
+      "Q1_largest_root_interval": [
+        "-3799/91866378",
+        "-4241/102554701"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    },
+    {
+      "m": 15,
+      "n": 17,
+      "N_coefficients_highest_first": [
+        "-32766",
+        "-56084976",
+        "-473512451952",
+        "-120377949651264",
+        "-18383030370654078",
+        "-1067415198208674528",
+        "-32616983011516387248",
+        "-540852027917073443328",
+        "-5126875245692731224678",
+        "-27202675467317918502288",
+        "-67189516779443063924928",
+        "50042426042407696066752",
+        "887253548405396659233882",
+        "2936322086983829462012352",
+        "5384378760790521384668832",
+        "6273178423754561914394112",
+        "4851151175115432333128742",
+        "2527454332565718178436592",
+        "887392474569669326587152",
+        "207918095717633056360512",
+        "31878872316964903598502",
+        "3104922469673077753632",
+        "183714509966944126992",
+        "6217728710848668672",
+        "108702110921177022",
+        "886380774814608",
+        "2274709666848",
+        "2146304064",
+        "32766",
+        "0"
+      ],
+      "N_degree": 29,
+      "N_square_free": true,
+      "N_strictly_negative_roots": 1,
+      "N_negative_root_interval": [
+        "-1438/92654743",
+        "-1131/72873793"
+      ],
+      "Q1_largest_root_interval": [
+        "-2949/143210386",
+        "-2828/137334341"
+      ],
+      "intervals_strictly_ordered": true,
+      "full_bound_reduction_certified": true
+    }
+  ],
+  "scope": "Finite degrees only; m=1 (n=3) is the elementary discriminant case."
+}

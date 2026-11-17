@@ -1,0 +1,26 @@
+{'m': 2, 'negative_roots': 1, 'negative_intervals': [('-19601/47321', '-13860/33461', 1)], 'seconds': 0.00101470947265625}
+{'m': 3, 'negative_roots': 1, 'negative_intervals': [('-2912/21743', '-8721/65117', 1)], 'seconds': 0.001264810562133789}
+{'m': 4, 'negative_roots': 1, 'negative_intervals': [('-1859/35447', '-2818/53733', 1)], 'seconds': 0.0014600753784179688}
+{'m': 5, 'negative_roots': 1, 'negative_intervals': [('-1600/71193', '-343/15262', 1)], 'seconds': 0.0018875598907470703}
+{'m': 6, 'negative_roots': 1, 'negative_intervals': [('-812/80133', '-691/68192', 1)], 'seconds': 0.0027244091033935547}
+{'m': 7, 'negative_roots': 1, 'negative_intervals': [('-539/114295', '-519/110054', 1)], 'seconds': 0.0036389827728271484}
+{'m': 8, 'negative_roots': 1, 'negative_intervals': [('-67/29896', '-110/49083', 1)], 'seconds': 0.006111860275268555}
+{'m': 9, 'negative_roots': 1, 'negative_intervals': [('-62/57387', '-67/62015', 1)], 'seconds': 0.010683298110961914}
+{'m': 10, 'negative_roots': 1, 'negative_intervals': [('-15/28513', '-23/43720', 1)], 'seconds': 0.020820140838623047}
+{'m': 11, 'negative_roots': 1, 'negative_intervals': [('-1/3876', '-130/503881', 1)], 'seconds': 0.04136204719543457}
+{'m': 12, 'negative_roots': 1, 'negative_intervals': [('-19/149396', '-1/7863', 1)], 'seconds': 0.08902478218078613}
+{'m': 13, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 0.08507776260375977}
+{'m': 14, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 0.2078227996826172}
+{'m': 15, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 0.40178537368774414}
+{'m': 16, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 0.6885883808135986}
+{'m': 17, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 1.0147852897644043}
+{'m': 18, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 1.8336138725280762}
+{'m': 19, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 2.620806932449341}
+{'m': 20, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 4.54524564743042}
+{'m': 21, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 6.572408199310303}
+{'m': 22, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 10.126572370529175}
+{'m': 23, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 15.460962295532227}
+{'m': 24, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 22.14570140838623}
+{'m': 25, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 28.5073721408844}
+{'m': 26, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 43.33846569061279}
+{'m': 27, 'negative_roots': 1, 'negative_intervals': [], 'seconds': 60.945658922195435}

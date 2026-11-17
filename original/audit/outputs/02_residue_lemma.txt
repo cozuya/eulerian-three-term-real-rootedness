@@ -1,0 +1,96 @@
+{
+ "check": "02_residue_lemma",
+ "status": "PASS",
+ "exact_range_n": [
+  3,
+  46
+ ],
+ "rows_first": [
+  {
+   "n": 3,
+   "rho": 6,
+   "poles_in_t": 1,
+   "positive_roots_of_C_{n-2}": 0,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  },
+  {
+   "n": 4,
+   "rho": 12,
+   "poles_in_t": 1,
+   "positive_roots_of_C_{n-2}": 0,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  },
+  {
+   "n": 5,
+   "rho": 20,
+   "poles_in_t": 2,
+   "positive_roots_of_C_{n-2}": 1,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  },
+  {
+   "n": 6,
+   "rho": 30,
+   "poles_in_t": 2,
+   "positive_roots_of_C_{n-2}": 1,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  }
+ ],
+ "rows_last": [
+  {
+   "n": 45,
+   "rho": 1980,
+   "poles_in_t": 22,
+   "positive_roots_of_C_{n-2}": 21,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  },
+  {
+   "n": 46,
+   "rho": 2070,
+   "poles_in_t": 22,
+   "positive_roots_of_C_{n-2}": 21,
+   "pattern_NDND": true,
+   "cor_3_2_exact": true
+  }
+ ],
+ "symbolic_identities": [
+  "(3.5) generic 3-term",
+  "residue pairing",
+  "base case n=3"
+ ],
+ "diagnostic_lambda_range_n": [
+  3,
+  40
+ ],
+ "diagnostic_sample": [
+  {
+   "n": 3,
+   "min_lambda": "4.0",
+   "max_lambda": "4.0"
+  },
+  {
+   "n": 4,
+   "min_lambda": "4.0",
+   "max_lambda": "4.0"
+  },
+  {
+   "n": 5,
+   "min_lambda": "2.6666667",
+   "max_lambda": "4.0"
+  },
+  {
+   "n": 39,
+   "min_lambda": "0.26603535",
+   "max_lambda": "46.636945"
+  },
+  {
+   "n": 40,
+   "min_lambda": "1.0304616",
+   "max_lambda": "47.816266"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "Please cite this proof using the metadata below and identify the commit consulted."
+title: "Real-Rootedness of Three Consecutive Eulerian Polynomials"
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Ozols
+    given-names: Chris
+    website: "https://github.com/cozuya"
+url: "https://github.com/cozuya/eulerian-three-term-real-rootedness"
+repository-code: "https://github.com/cozuya/eulerian-three-term-real-rootedness"
+abstract: >-
+  A Lean-checked proof that for fixed real b, c >= 0 the polynomials
+  A_n(x) + b A_(n-1)(x) + c A_(n-2)(x), where A_n is the Eulerian polynomial,
+  have only real roots for every n >= 3 if and only if c <= b^2/4 + b + 3.
+  Repeated roots are allowed and the boundary is included; necessity comes
+  from n = 3. The region strictly contains the sufficient region of
+  Athanasiadis (On the real-rootedness of the Eulerian transformation,
+  Example 3.3). The proof uses Cayley coordinates, a positive-residue
+  induction, a logarithmic-derivative inequality and a sign count at hybrid
+  test points. By Chris Ozols, with AI-assisted proof development and
+  formalization; the Lean formalization was written by Anthropic's Claude,
+  with its final verification step completed by OpenAI's Codex. Verified with
+  Lean 4.35.0 and Mathlib v4.35.0, using only the standard axioms propext,
+  Classical.choice and Quot.sound. No claim of novelty, first discovery, or
+  historical priority.
+keywords:
+  - Eulerian polynomials
+  - real-rooted polynomials
+  - linear combinations
+  - interlacing
+  - Cayley transform
+  - partial fractions
+  - Athanasiadis Example 3.3
+  - Eulerian transformation
+  - Lean
+  - Mathlib
+  - formal proof
+preferred-citation:
+  type: report
+  title: "Real-Rootedness of Three Consecutive Eulerian Polynomials"
+  authors:
+    - family-names: Ozols
+      given-names: Chris
+  url: "https://github.com/cozuya/eulerian-three-term-real-rootedness"
+references:
+  - type: article
+    title: "On the real-rootedness of the Eulerian transformation"
+    authors:
+      - family-names: Athanasiadis
+        given-names: Christos A.
+    journal: "Journal of the London Mathematical Society"
+    doi: "10.1112/jlms.70083"
+    url: "https://arxiv.org/abs/2302.00754v5"
+  - type: report
+    title: "The Eulerian Combinations"
+    authors:
+      - family-names: Ma
+        given-names: Shi-Mei
+    year: 2026
+    url: "https://www.researchgate.net/publication/413485066_THE_EULERIAN_COMBINATIONS"
+  - type: software
+    title: "Mathlib"
+    url: "https://github.com/leanprover-community/mathlib4"
+    commit: "56a005855ea17e0b0958f73ec801ae140b0a1679"

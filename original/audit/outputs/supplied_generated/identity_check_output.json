@@ -1,0 +1,398 @@
+{
+  "python": "3.13.18",
+  "sympy": "1.14.0",
+  "symbolic_checks": [
+    {
+      "m": 1,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 2,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 3,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 4,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 5,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 6,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 7,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 8,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 9,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    },
+    {
+      "m": 10,
+      "quotient_identity": true,
+      "reciprocity": true,
+      "derivative_reciprocity": true,
+      "root_identity_mod_Q": true
+    }
+  ],
+  "exact_root_checks": [
+    {
+      "n": 3,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 2,
+      "degree": 2,
+      "square_free": true
+    },
+    {
+      "n": 3,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 2,
+      "degree": 2,
+      "square_free": true
+    },
+    {
+      "n": 3,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 2,
+      "degree": 2,
+      "square_free": true
+    },
+    {
+      "n": 3,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 2,
+      "degree": 2,
+      "square_free": true
+    },
+    {
+      "n": 4,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 3,
+      "degree": 3,
+      "square_free": true
+    },
+    {
+      "n": 4,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 3,
+      "degree": 3,
+      "square_free": true
+    },
+    {
+      "n": 4,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 3,
+      "degree": 3,
+      "square_free": true
+    },
+    {
+      "n": 4,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 3,
+      "degree": 3,
+      "square_free": true
+    },
+    {
+      "n": 5,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 4,
+      "degree": 4,
+      "square_free": true
+    },
+    {
+      "n": 5,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 4,
+      "degree": 4,
+      "square_free": true
+    },
+    {
+      "n": 5,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 4,
+      "degree": 4,
+      "square_free": true
+    },
+    {
+      "n": 5,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 4,
+      "degree": 4,
+      "square_free": true
+    },
+    {
+      "n": 6,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 5,
+      "degree": 5,
+      "square_free": true
+    },
+    {
+      "n": 6,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 5,
+      "degree": 5,
+      "square_free": true
+    },
+    {
+      "n": 6,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 5,
+      "degree": 5,
+      "square_free": true
+    },
+    {
+      "n": 6,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 5,
+      "degree": 5,
+      "square_free": true
+    },
+    {
+      "n": 7,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 6,
+      "degree": 6,
+      "square_free": true
+    },
+    {
+      "n": 7,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 6,
+      "degree": 6,
+      "square_free": true
+    },
+    {
+      "n": 7,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 6,
+      "degree": 6,
+      "square_free": true
+    },
+    {
+      "n": 7,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 6,
+      "degree": 6,
+      "square_free": true
+    },
+    {
+      "n": 8,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 7,
+      "degree": 7,
+      "square_free": true
+    },
+    {
+      "n": 8,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 7,
+      "degree": 7,
+      "square_free": true
+    },
+    {
+      "n": 8,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 7,
+      "degree": 7,
+      "square_free": true
+    },
+    {
+      "n": 8,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 7,
+      "degree": 7,
+      "square_free": true
+    },
+    {
+      "n": 9,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 8,
+      "degree": 8,
+      "square_free": true
+    },
+    {
+      "n": 9,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 8,
+      "degree": 8,
+      "square_free": true
+    },
+    {
+      "n": 9,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 8,
+      "degree": 8,
+      "square_free": true
+    },
+    {
+      "n": 9,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 8,
+      "degree": 8,
+      "square_free": true
+    },
+    {
+      "n": 10,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 9,
+      "degree": 9,
+      "square_free": true
+    },
+    {
+      "n": 10,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 9,
+      "degree": 9,
+      "square_free": true
+    },
+    {
+      "n": 10,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 9,
+      "degree": 9,
+      "square_free": true
+    },
+    {
+      "n": 10,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 9,
+      "degree": 9,
+      "square_free": true
+    },
+    {
+      "n": 11,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 10,
+      "degree": 10,
+      "square_free": true
+    },
+    {
+      "n": 11,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 10,
+      "degree": 10,
+      "square_free": true
+    },
+    {
+      "n": 11,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 10,
+      "degree": 10,
+      "square_free": true
+    },
+    {
+      "n": 11,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 10,
+      "degree": 10,
+      "square_free": true
+    },
+    {
+      "n": 12,
+      "b": "0",
+      "c": "5/4",
+      "real_roots_with_multiplicity": 11,
+      "degree": 11,
+      "square_free": true
+    },
+    {
+      "n": 12,
+      "b": "1/3",
+      "c": "13/9",
+      "real_roots_with_multiplicity": 11,
+      "degree": 11,
+      "square_free": true
+    },
+    {
+      "n": 12,
+      "b": "2",
+      "c": "13/4",
+      "real_roots_with_multiplicity": 11,
+      "degree": 11,
+      "square_free": true
+    },
+    {
+      "n": 12,
+      "b": "100",
+      "c": "10205/4",
+      "real_roots_with_multiplicity": 11,
+      "degree": 11,
+      "square_free": true
+    }
+  ]
+}

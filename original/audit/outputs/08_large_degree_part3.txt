@@ -1,0 +1,2 @@
+{"n": 200, "positive_roots_of_C_{n-2}": 98, "cor_3_2": true, "boundary_cases": ["0", "1", "100"], "seconds": 527.3}
+{"check": "08_large_degree", "status": "PASS", "n_values": [200], "seconds": 527.3}

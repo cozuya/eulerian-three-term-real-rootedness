@@ -1,0 +1,30 @@
+{
+ "check": "01_eulerian_basics",
+ "status": "PASS",
+ "constructions_agree": {
+  "bruteforce_n": [
+   0,
+   8
+  ],
+  "closed_form_vs_recurrence_n": [
+   0,
+   60
+  ]
+ },
+ "shape_checked_n": [
+  1,
+  60
+ ],
+ "simple_negative_roots_n": [
+  2,
+  60
+ ],
+ "consecutive_interlacing_pattern_j": [
+  2,
+  39
+ ],
+ "cayley_checked_j": [
+  1,
+  60
+ ]
+}

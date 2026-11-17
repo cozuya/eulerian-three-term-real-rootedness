@@ -1,0 +1,11 @@
+{
+ "check": "04_central_identity",
+ "status": "PASS",
+ "generic_f_identity_5_4": "exact zero",
+ "h_formula": "exact zero",
+ "N_m_equals_(1-z^2)*bracket_generic_f": "exact zero",
+ "cayley_dictionary_checked_n": [
+  3,
+  40
+ ]
+}

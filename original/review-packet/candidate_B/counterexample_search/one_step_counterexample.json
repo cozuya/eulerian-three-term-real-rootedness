@@ -1,0 +1,61 @@
+{
+  "scope": "Falsifies proposed extension to one recurrence applied to arbitrary reciprocal negative-rooted input. Does NOT falsify original Eulerian conjecture.",
+  "seed_polynomial": "(x + 1)**10",
+  "b": "4",
+  "c": "11",
+  "F": "(x + 1)**9*(x**2 + 22*x + 1)",
+  "G": "(x + 1)**8*(x**4 + 66*x**3 + 490*x**2 + 66*x + 1)",
+  "H": "(x + 1)**7*(x**6 + 154*x**5 + 2927*x**4 + 11308*x**3 + 2927*x**2 + 154*x + 1)",
+  "P_factorization": "(x + 1)**7*(x**6 + 158*x**5 + 3206*x**4 + 13796*x**3 + 5657*x**2 + 686*x + 16)",
+  "sextic_square_free": true,
+  "sturm_chain": [
+    {
+      "degree": 6,
+      "primitive_polynomial": "x**6 + 158*x**5 + 3206*x**4 + 13796*x**3 + 5657*x**2 + 686*x + 16",
+      "minus_infinity_sign": 1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 5,
+      "primitive_polynomial": "3*x**5 + 395*x**4 + 6412*x**3 + 20694*x**2 + 5657*x + 343",
+      "minus_infinity_sign": -1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 4,
+      "primitive_polynomial": "21587*x**4 + 444466*x**3 + 1600884*x**2 + 441758*x + 26953",
+      "minus_infinity_sign": 1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 3,
+      "primitive_polynomial": "5795250517*x**3 + 35206306070*x**2 + 10062281359*x + 630518646",
+      "minus_infinity_sign": -1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 2,
+      "primitive_polynomial": "4901565145868305*x**2 + 1507940796385748*x + 102865957726219",
+      "minus_infinity_sign": 1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 1,
+      "primitive_polynomial": "5095185859698675451*x + 1056902012657661643",
+      "minus_infinity_sign": -1,
+      "plus_infinity_sign": 1
+    },
+    {
+      "degree": 0,
+      "primitive_polynomial": "-1",
+      "minus_infinity_sign": -1,
+      "plus_infinity_sign": -1
+    }
+  ],
+  "variations_minus_infinity": 5,
+  "variations_plus_infinity": 1,
+  "sextic_real_roots": 4,
+  "P_degree": 13,
+  "P_real_roots_with_multiplicity": 11,
+  "counterexample_certified": true
+}

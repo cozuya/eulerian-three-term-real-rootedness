@@ -1,0 +1,243 @@
+{
+ "check": "05_root_count",
+ "status": "PASS",
+ "seconds": 263.1,
+ "ranges": {
+  "tarski_m": [
+   2,
+   34
+  ],
+  "pattern_m": [
+   2,
+   22
+  ],
+  "sturm_n": [
+   4,
+   90
+  ]
+ },
+ "counts": {
+  "q_structure": 330,
+  "tarski_5_5": 1320,
+  "tarski_5_6": 1280,
+  "zero_point": 680,
+  "full_pattern": 146,
+  "sturm_x": 2624
+ },
+ "n3_boundary_b": [
+  "0",
+  "1/1000000000",
+  "1/1000",
+  "1/4",
+  "1",
+  "2",
+  "10",
+  "100",
+  "1000000",
+  "1000000000000"
+ ],
+ "case_III_c_star": [
+  {
+   "n": 4,
+   "c_star": "8"
+  },
+  {
+   "n": 6,
+   "c_star": "17"
+  },
+  {
+   "n": 8,
+   "c_star": "496/17"
+  },
+  {
+   "n": 10,
+   "c_star": "1382/31"
+  },
+  {
+   "n": 12,
+   "c_star": "43688/691"
+  }
+ ],
+ "per_degree_threshold_diagnostic": [
+  {
+   "n": 3,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 3.000000000066393
+  },
+  {
+   "n": 3,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 4.250000000069804
+  },
+  {
+   "n": 3,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 38.00000000016189
+  },
+  {
+   "n": 4,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 24.000000000026375
+  },
+  {
+   "n": 4,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 25.807942379226006
+  },
+  {
+   "n": 4,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 66.79261759509427
+  },
+  {
+   "n": 5,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 10.113679326890633
+  },
+  {
+   "n": 5,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 12.847843113580211
+  },
+  {
+   "n": 5,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 202.29474383264278
+  },
+  {
+   "n": 6,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 31.790506603680114
+  },
+  {
+   "n": 6,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 33.4839574454511
+  },
+  {
+   "n": 6,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 94.11813739430363
+  },
+  {
+   "n": 7,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 20.018453319968103
+  },
+  {
+   "n": 7,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 23.985507713957077
+  },
+  {
+   "n": 7,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 143.89270232202944
+  },
+  {
+   "n": 8,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 45.204862943245644
+  },
+  {
+   "n": 8,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 46.97400439156786
+  },
+  {
+   "n": 8,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 147.01073056877976
+  },
+  {
+   "n": 9,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 33.065588332720836
+  },
+  {
+   "n": 9,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 38.22572947847857
+  },
+  {
+   "n": 9,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 155.22702057215793
+  },
+  {
+   "n": 10,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 62.4325086900335
+  },
+  {
+   "n": 10,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 64.3436750883941
+  },
+  {
+   "n": 10,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 266.5527677744831
+  },
+  {
+   "n": 11,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 49.334183386195036
+  },
+  {
+   "n": 11,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 55.68264670271037
+  },
+  {
+   "n": 11,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 182.6304769839462
+  },
+  {
+   "n": 12,
+   "b": "0",
+   "claimed_bound": 3.0,
+   "first_failure_above_bound_near": 83.12926252392299
+  },
+  {
+   "n": 12,
+   "b": "1",
+   "claimed_bound": 4.25,
+   "first_failure_above_bound_near": 85.21292855593674
+  },
+  {
+   "n": 12,
+   "b": "10",
+   "claimed_bound": 38.0,
+   "first_failure_above_bound_near": 264.7242568074671
+  }
+ ]
+}

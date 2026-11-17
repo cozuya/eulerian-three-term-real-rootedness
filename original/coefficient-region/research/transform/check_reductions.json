@@ -1,0 +1,51 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "transformation_identity_checked_n": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "generic_preserver_obstruction": {
+    "F": "y**2-1/100",
+    "b": 0,
+    "c": 3,
+    "output": "23*y**4 + 6*y**3 - 1509*y**2/100 - 3*y/50 + 199/100",
+    "degree": 4,
+    "distinct_real_roots": 2,
+    "squarefree": true
+  },
+  "turan_identity_and_root_counts": [
+    {
+      "m": 2,
+      "K": "-2*x**2 + 4*x + 2",
+      "distinct_real_roots": 2
+    },
+    {
+      "m": 3,
+      "K": "-6*x**4 + 24*x**2 + 48*x + 6",
+      "distinct_real_roots": 2
+    },
+    {
+      "m": 4,
+      "K": "-14*x**6 - 60*x**5 - 86*x**4 + 744*x**3 + 822*x**2 + 308*x + 14",
+      "distinct_real_roots": 2
+    },
+    {
+      "m": 5,
+      "K": "-30*x**8 - 360*x**7 - 2700*x**6 + 2280*x**5 + 18960*x**4 + 27240*x**3 + 10620*x**2 + 1560*x + 30",
+      "distinct_real_roots": 2
+    },
+    {
+      "m": 6,
+      "K": "-62*x**10 - 1540*x**9 - 28106*x**8 - 70352*x**7 + 118612*x**6 + 855880*x**5 + 1069420*x**4 + 541936*x**3 + 99082*x**2 + 7068*x + 62",
+      "distinct_real_roots": 2
+    }
+  ]
+}

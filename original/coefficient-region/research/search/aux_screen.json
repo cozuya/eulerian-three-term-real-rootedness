@@ -1,0 +1,705 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "records": [
+    {
+      "m": 1,
+      "points": 2568,
+      "eligible": 1515,
+      "negative_elsewhere": 0,
+      "bad": null
+    },
+    {
+      "m": 2,
+      "points": 2568,
+      "eligible": 1521,
+      "negative_elsewhere": 850,
+      "bad": null
+    },
+    {
+      "m": 3,
+      "points": 2568,
+      "eligible": 1502,
+      "negative_elsewhere": 741,
+      "bad": null
+    },
+    {
+      "m": 4,
+      "points": 2568,
+      "eligible": 1324,
+      "negative_elsewhere": 647,
+      "bad": null
+    },
+    {
+      "m": 5,
+      "points": 2568,
+      "eligible": 1388,
+      "negative_elsewhere": 605,
+      "bad": null
+    },
+    {
+      "m": 6,
+      "points": 2568,
+      "eligible": 1405,
+      "negative_elsewhere": 582,
+      "bad": null
+    },
+    {
+      "m": 7,
+      "points": 2568,
+      "eligible": 1417,
+      "negative_elsewhere": 565,
+      "bad": null
+    },
+    {
+      "m": 8,
+      "points": 2568,
+      "eligible": 1404,
+      "negative_elsewhere": 553,
+      "bad": null
+    },
+    {
+      "m": 9,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 541,
+      "bad": null
+    },
+    {
+      "m": 10,
+      "points": 2568,
+      "eligible": 1443,
+      "negative_elsewhere": 531,
+      "bad": null
+    },
+    {
+      "m": 11,
+      "points": 2568,
+      "eligible": 1383,
+      "negative_elsewhere": 521,
+      "bad": null
+    },
+    {
+      "m": 12,
+      "points": 2568,
+      "eligible": 1445,
+      "negative_elsewhere": 511,
+      "bad": null
+    },
+    {
+      "m": 13,
+      "points": 2568,
+      "eligible": 1384,
+      "negative_elsewhere": 500,
+      "bad": null
+    },
+    {
+      "m": 14,
+      "points": 2568,
+      "eligible": 1456,
+      "negative_elsewhere": 490,
+      "bad": null
+    },
+    {
+      "m": 15,
+      "points": 2568,
+      "eligible": 1428,
+      "negative_elsewhere": 480,
+      "bad": null
+    },
+    {
+      "m": 16,
+      "points": 2568,
+      "eligible": 1441,
+      "negative_elsewhere": 470,
+      "bad": null
+    },
+    {
+      "m": 17,
+      "points": 2568,
+      "eligible": 1420,
+      "negative_elsewhere": 460,
+      "bad": null
+    },
+    {
+      "m": 18,
+      "points": 2568,
+      "eligible": 1418,
+      "negative_elsewhere": 450,
+      "bad": null
+    },
+    {
+      "m": 19,
+      "points": 2568,
+      "eligible": 1425,
+      "negative_elsewhere": 440,
+      "bad": null
+    },
+    {
+      "m": 20,
+      "points": 2568,
+      "eligible": 1444,
+      "negative_elsewhere": 430,
+      "bad": null
+    },
+    {
+      "m": 21,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 420,
+      "bad": null
+    },
+    {
+      "m": 22,
+      "points": 2568,
+      "eligible": 1426,
+      "negative_elsewhere": 410,
+      "bad": null
+    },
+    {
+      "m": 23,
+      "points": 2568,
+      "eligible": 1442,
+      "negative_elsewhere": 400,
+      "bad": null
+    },
+    {
+      "m": 24,
+      "points": 2568,
+      "eligible": 1442,
+      "negative_elsewhere": 390,
+      "bad": null
+    },
+    {
+      "m": 25,
+      "points": 2568,
+      "eligible": 1407,
+      "negative_elsewhere": 380,
+      "bad": null
+    },
+    {
+      "m": 26,
+      "points": 2568,
+      "eligible": 1463,
+      "negative_elsewhere": 370,
+      "bad": null
+    },
+    {
+      "m": 27,
+      "points": 2568,
+      "eligible": 1424,
+      "negative_elsewhere": 360,
+      "bad": null
+    },
+    {
+      "m": 28,
+      "points": 2568,
+      "eligible": 1467,
+      "negative_elsewhere": 350,
+      "bad": null
+    },
+    {
+      "m": 29,
+      "points": 2568,
+      "eligible": 1426,
+      "negative_elsewhere": 340,
+      "bad": null
+    },
+    {
+      "m": 30,
+      "points": 2568,
+      "eligible": 1420,
+      "negative_elsewhere": 330,
+      "bad": null
+    },
+    {
+      "m": 31,
+      "points": 2568,
+      "eligible": 1435,
+      "negative_elsewhere": 320,
+      "bad": null
+    },
+    {
+      "m": 32,
+      "points": 2568,
+      "eligible": 1461,
+      "negative_elsewhere": 310,
+      "bad": null
+    },
+    {
+      "m": 33,
+      "points": 2568,
+      "eligible": 1454,
+      "negative_elsewhere": 300,
+      "bad": null
+    },
+    {
+      "m": 34,
+      "points": 2568,
+      "eligible": 1422,
+      "negative_elsewhere": 290,
+      "bad": null
+    },
+    {
+      "m": 35,
+      "points": 2568,
+      "eligible": 1451,
+      "negative_elsewhere": 280,
+      "bad": null
+    },
+    {
+      "m": 36,
+      "points": 2568,
+      "eligible": 1427,
+      "negative_elsewhere": 270,
+      "bad": null
+    },
+    {
+      "m": 37,
+      "points": 2568,
+      "eligible": 1446,
+      "negative_elsewhere": 260,
+      "bad": null
+    },
+    {
+      "m": 38,
+      "points": 2568,
+      "eligible": 1448,
+      "negative_elsewhere": 250,
+      "bad": null
+    },
+    {
+      "m": 39,
+      "points": 2568,
+      "eligible": 1454,
+      "negative_elsewhere": 240,
+      "bad": null
+    },
+    {
+      "m": 40,
+      "points": 2568,
+      "eligible": 1447,
+      "negative_elsewhere": 236,
+      "bad": null
+    },
+    {
+      "m": 41,
+      "points": 2568,
+      "eligible": 1431,
+      "negative_elsewhere": 232,
+      "bad": null
+    },
+    {
+      "m": 42,
+      "points": 2568,
+      "eligible": 1416,
+      "negative_elsewhere": 228,
+      "bad": null
+    },
+    {
+      "m": 43,
+      "points": 2568,
+      "eligible": 1475,
+      "negative_elsewhere": 224,
+      "bad": null
+    },
+    {
+      "m": 44,
+      "points": 2568,
+      "eligible": 1447,
+      "negative_elsewhere": 220,
+      "bad": null
+    },
+    {
+      "m": 45,
+      "points": 2568,
+      "eligible": 1439,
+      "negative_elsewhere": 216,
+      "bad": null
+    },
+    {
+      "m": 46,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 212,
+      "bad": null
+    },
+    {
+      "m": 47,
+      "points": 2568,
+      "eligible": 1436,
+      "negative_elsewhere": 208,
+      "bad": null
+    },
+    {
+      "m": 48,
+      "points": 2568,
+      "eligible": 1429,
+      "negative_elsewhere": 204,
+      "bad": null
+    },
+    {
+      "m": 49,
+      "points": 2568,
+      "eligible": 1457,
+      "negative_elsewhere": 200,
+      "bad": null
+    },
+    {
+      "m": 50,
+      "points": 2568,
+      "eligible": 1445,
+      "negative_elsewhere": 196,
+      "bad": null
+    },
+    {
+      "m": 51,
+      "points": 2568,
+      "eligible": 1460,
+      "negative_elsewhere": 192,
+      "bad": null
+    },
+    {
+      "m": 52,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 188,
+      "bad": null
+    },
+    {
+      "m": 53,
+      "points": 2568,
+      "eligible": 1423,
+      "negative_elsewhere": 184,
+      "bad": null
+    },
+    {
+      "m": 54,
+      "points": 2568,
+      "eligible": 1442,
+      "negative_elsewhere": 180,
+      "bad": null
+    },
+    {
+      "m": 55,
+      "points": 2568,
+      "eligible": 1461,
+      "negative_elsewhere": 176,
+      "bad": null
+    },
+    {
+      "m": 56,
+      "points": 2568,
+      "eligible": 1463,
+      "negative_elsewhere": 172,
+      "bad": null
+    },
+    {
+      "m": 57,
+      "points": 2568,
+      "eligible": 1446,
+      "negative_elsewhere": 168,
+      "bad": null
+    },
+    {
+      "m": 58,
+      "points": 2568,
+      "eligible": 1431,
+      "negative_elsewhere": 164,
+      "bad": null
+    },
+    {
+      "m": 59,
+      "points": 2568,
+      "eligible": 1437,
+      "negative_elsewhere": 160,
+      "bad": null
+    },
+    {
+      "m": 60,
+      "points": 2568,
+      "eligible": 1456,
+      "negative_elsewhere": 156,
+      "bad": null
+    },
+    {
+      "m": 61,
+      "points": 2568,
+      "eligible": 1453,
+      "negative_elsewhere": 152,
+      "bad": null
+    },
+    {
+      "m": 62,
+      "points": 2568,
+      "eligible": 1446,
+      "negative_elsewhere": 148,
+      "bad": null
+    },
+    {
+      "m": 63,
+      "points": 2568,
+      "eligible": 1441,
+      "negative_elsewhere": 144,
+      "bad": null
+    },
+    {
+      "m": 64,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 140,
+      "bad": null
+    },
+    {
+      "m": 65,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 136,
+      "bad": null
+    },
+    {
+      "m": 66,
+      "points": 2568,
+      "eligible": 1454,
+      "negative_elsewhere": 132,
+      "bad": null
+    },
+    {
+      "m": 67,
+      "points": 2568,
+      "eligible": 1443,
+      "negative_elsewhere": 128,
+      "bad": null
+    },
+    {
+      "m": 68,
+      "points": 2568,
+      "eligible": 1446,
+      "negative_elsewhere": 124,
+      "bad": null
+    },
+    {
+      "m": 69,
+      "points": 2568,
+      "eligible": 1444,
+      "negative_elsewhere": 120,
+      "bad": null
+    },
+    {
+      "m": 70,
+      "points": 2568,
+      "eligible": 1459,
+      "negative_elsewhere": 116,
+      "bad": null
+    },
+    {
+      "m": 71,
+      "points": 2568,
+      "eligible": 1431,
+      "negative_elsewhere": 112,
+      "bad": null
+    },
+    {
+      "m": 72,
+      "points": 2568,
+      "eligible": 1461,
+      "negative_elsewhere": 108,
+      "bad": null
+    },
+    {
+      "m": 73,
+      "points": 2568,
+      "eligible": 1444,
+      "negative_elsewhere": 104,
+      "bad": null
+    },
+    {
+      "m": 74,
+      "points": 2568,
+      "eligible": 1447,
+      "negative_elsewhere": 100,
+      "bad": null
+    },
+    {
+      "m": 75,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 96,
+      "bad": null
+    },
+    {
+      "m": 76,
+      "points": 2568,
+      "eligible": 1442,
+      "negative_elsewhere": 92,
+      "bad": null
+    },
+    {
+      "m": 77,
+      "points": 2568,
+      "eligible": 1461,
+      "negative_elsewhere": 88,
+      "bad": null
+    },
+    {
+      "m": 78,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 84,
+      "bad": null
+    },
+    {
+      "m": 79,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 80,
+      "bad": null
+    },
+    {
+      "m": 80,
+      "points": 2568,
+      "eligible": 1442,
+      "negative_elsewhere": 76,
+      "bad": null
+    },
+    {
+      "m": 81,
+      "points": 2568,
+      "eligible": 1460,
+      "negative_elsewhere": 72,
+      "bad": null
+    },
+    {
+      "m": 82,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 68,
+      "bad": null
+    },
+    {
+      "m": 83,
+      "points": 2568,
+      "eligible": 1433,
+      "negative_elsewhere": 64,
+      "bad": null
+    },
+    {
+      "m": 84,
+      "points": 2568,
+      "eligible": 1459,
+      "negative_elsewhere": 60,
+      "bad": null
+    },
+    {
+      "m": 85,
+      "points": 2568,
+      "eligible": 1445,
+      "negative_elsewhere": 56,
+      "bad": null
+    },
+    {
+      "m": 86,
+      "points": 2568,
+      "eligible": 1461,
+      "negative_elsewhere": 52,
+      "bad": null
+    },
+    {
+      "m": 87,
+      "points": 2568,
+      "eligible": 1453,
+      "negative_elsewhere": 48,
+      "bad": null
+    },
+    {
+      "m": 88,
+      "points": 2568,
+      "eligible": 1431,
+      "negative_elsewhere": 44,
+      "bad": null
+    },
+    {
+      "m": 89,
+      "points": 2568,
+      "eligible": 1448,
+      "negative_elsewhere": 40,
+      "bad": null
+    },
+    {
+      "m": 90,
+      "points": 2568,
+      "eligible": 1464,
+      "negative_elsewhere": 36,
+      "bad": null
+    },
+    {
+      "m": 91,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 32,
+      "bad": null
+    },
+    {
+      "m": 92,
+      "points": 2568,
+      "eligible": 1450,
+      "negative_elsewhere": 28,
+      "bad": null
+    },
+    {
+      "m": 93,
+      "points": 2568,
+      "eligible": 1450,
+      "negative_elsewhere": 24,
+      "bad": null
+    },
+    {
+      "m": 94,
+      "points": 2568,
+      "eligible": 1438,
+      "negative_elsewhere": 20,
+      "bad": null
+    },
+    {
+      "m": 95,
+      "points": 2568,
+      "eligible": 1453,
+      "negative_elsewhere": 16,
+      "bad": null
+    },
+    {
+      "m": 96,
+      "points": 2568,
+      "eligible": 1456,
+      "negative_elsewhere": 12,
+      "bad": null
+    },
+    {
+      "m": 97,
+      "points": 2568,
+      "eligible": 1440,
+      "negative_elsewhere": 8,
+      "bad": null
+    },
+    {
+      "m": 98,
+      "points": 2568,
+      "eligible": 1449,
+      "negative_elsewhere": 4,
+      "bad": null
+    },
+    {
+      "m": 99,
+      "points": 2568,
+      "eligible": 1452,
+      "negative_elsewhere": 2,
+      "bad": null
+    },
+    {
+      "m": 100,
+      "points": 2568,
+      "eligible": 1451,
+      "negative_elsewhere": 1,
+      "bad": null
+    }
+  ]
+}

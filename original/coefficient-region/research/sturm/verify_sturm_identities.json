@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "cauchy_bound_identity": "PASS",
+  "completed_square_identity": "PASS",
+  "reciprocal_pair_identity": "PASS",
+  "final_strict_rational_identity": "PASS",
+  "piecewise_value_and_derivative_match": "PASS",
+  "auxiliary_generic_obstruction": {
+    "h": "x**2 + 21*x/10 + 1",
+    "r": "-3/10",
+    "alpha": "539/460",
+    "E": "-113037/211600",
+    "is_Eulerian_counterexample": false
+  }
+}

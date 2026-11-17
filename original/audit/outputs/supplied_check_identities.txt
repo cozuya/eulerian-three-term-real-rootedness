@@ -1,0 +1,1 @@
+{"symbolic_indices": 10, "exact_root_checks": 40, "all_passed": true, "output": "/home/claude/audit_work/supplied_run/eulerian-cross-vendor-review/candidate_B/proof_route/identity_check_output.json", "python": "3.13.18", "sympy": "1.14.0"}

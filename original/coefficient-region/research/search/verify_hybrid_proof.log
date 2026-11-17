@@ -1,0 +1,12 @@
+{"m": 2, "main_cases_so_far": 24, "limit_cases_so_far": 3}
+{"m": 3, "main_cases_so_far": 51, "limit_cases_so_far": 3}
+{"m": 4, "main_cases_so_far": 75, "limit_cases_so_far": 6}
+{"m": 5, "main_cases_so_far": 102, "limit_cases_so_far": 6}
+{"m": 6, "main_cases_so_far": 126, "limit_cases_so_far": 9}
+{"m": 7, "main_cases_so_far": 153, "limit_cases_so_far": 9}
+{"m": 8, "main_cases_so_far": 177, "limit_cases_so_far": 12}
+{"m": 9, "main_cases_so_far": 204, "limit_cases_so_far": 12}
+{"m": 10, "main_cases_so_far": 228, "limit_cases_so_far": 15}
+{"m": 11, "main_cases_so_far": 255, "limit_cases_so_far": 15}
+{"m": 12, "main_cases_so_far": 279, "limit_cases_so_far": 18}
+HYBRID PROOF CHECKS ALL PASSED 279 22

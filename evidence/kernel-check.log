@@ -1,0 +1,58 @@
+@EulerianThreeTermVerification.real_rooted_iff : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P →
+    ∀ (b c : ℝ),
+      0 ≤ b → 0 ≤ c → ((∀ (n : ℕ), 3 ≤ n → (P n + C b * P (n - 1) + C c * P (n - 2)).Splits) ↔ c ≤ b ^ 2 / 4 + b + 3)
+@EulerianThreeTermVerification.real_rooted_strong : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P →
+    ∀ {b c : ℝ},
+      0 ≤ b →
+        0 ≤ c →
+          c ≤ b ^ 2 / 4 + b + 3 →
+            ∀ {n : ℕ},
+              3 ≤ n →
+                have p := P n + C b * P (n - 1) + C c * P (n - 2);
+                p.Monic ∧ p.Splits ∧ p.natDegree = n - 1 ∧ p.roots.card = n - 1
+@EulerianThreeTermVerification.degree_three_iff : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P → ∀ (b c : ℝ), (P 3 + C b * P 2 + C c * P 1).Splits ↔ c ≤ b ^ 2 / 4 + b + 3
+@EulerianThreeTermVerification.degree_three_boundary : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P →
+    ∀ (b : ℝ), P 3 + C b * P 2 + C (b ^ 2 / 4 + b + 3) * P 1 = (X + C (b / 2 + 2)) ^ 2
+@EulerianThreeTermVerification.boundary_example : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P →
+    ∀ (n : ℕ), 3 ≤ n → (P n + C 1 * P (n - 1) + C (17 / 4) * P (n - 2)).Splits
+@EulerianThreeTermVerification.outside_example : ∀ {P : ℕ → ℝ[X]},
+  EulerianThreeTermVerification.IsEulerian P → ¬∀ (n : ℕ), 3 ≤ n → (P n + C 1 * P (n - 1) + C 5 * P (n - 2)).Splits
+EulerianThreeTermVerification.sequence_exists : ∃ P,
+  EulerianThreeTermVerification.IsEulerian P ∧
+    P 1 = 1 ∧ P 2 = 1 + X ∧ P 3 = 1 + C 4 * X + X ^ 2 ∧ P 4 = 1 + C 11 * X + C 11 * X ^ 2 + X ^ 3
+EulerianRegion.eulerian_three_term_realRooted_iff : ∀ (b c : ℝ),
+  0 ≤ b → 0 ≤ c → ((∀ (n : ℕ), 3 ≤ n → (EulerianRegion.combination n b c).Splits) ↔ c ≤ b ^ 2 / 4 + b + 3)
+def EulerianRegion.A : ℕ → ℝ[X] :=
+fun x => Nat.brecOn x EulerianRegion.A._f
+def EulerianRegion.combination : ℕ → ℝ → ℝ → ℝ[X] :=
+fun n b c => EulerianRegion.A n + C b * EulerianRegion.A (n - 1) + C c * EulerianRegion.A (n - 2)
+def EulerianRegion.PrimaryClaim : Prop :=
+∀ (b c : ℝ), 0 ≤ b → 0 ≤ c → ((∀ (n : ℕ), 3 ≤ n → (EulerianRegion.combination n b c).Splits) ↔ c ≤ b ^ 2 / 4 + b + 3)
+'EulerianThreeTermVerification.real_rooted_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.real_rooted_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.degree_three_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.degree_three_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.boundary_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.outside_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianThreeTermVerification.sequence_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.eulerian_three_term_realRooted_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.eulerian_three_term_realRooted_iff'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.primaryClaim_holds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.combination_splits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.combination_three_splits_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.combination_splits_of_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.combination_splits_b_zero_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.Cay_succ_eq_homog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.residue_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.positive_partial_fractions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.cor_3_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.lemma_4_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.central_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.Phat_signPattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.Rzero_signPattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'EulerianRegion.splits_of_homog' depends on axioms: [propext, Classical.choice, Quot.sound]

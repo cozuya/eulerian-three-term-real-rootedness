@@ -1,0 +1,16 @@
+independently verified reduction n 4
+independently verified reduction n 5
+independently verified reduction n 6
+independently verified reduction n 7
+independently verified reduction n 8
+independently verified reduction n 9
+independently verified reduction n 10
+independently verified reduction n 11
+independently verified reduction n 12
+independently verified reduction n 13
+independently verified reduction n 14
+independently verified reduction n 15
+independently verified reduction n 16
+independently verified reduction n 17
+PASS 14 finite-degree certificate audits
+exit=0 seconds=2

@@ -1,0 +1,27 @@
+{"m": 2, "r0": "-6787/16384", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0011394023895263672}
+{"m": 3, "r0": "-4389/32768", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0010030269622802734}
+{"m": 4, "r0": "-1719/32768", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0014607906341552734}
+{"m": 5, "r0": "-1473/65536", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0018777847290039062}
+{"m": 6, "r0": "-2657/262144", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.002428293228149414}
+{"m": 7, "r0": "-2473/524288", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0030214786529541016}
+{"m": 8, "r0": "-1175/524288", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.0038683414459228516}
+{"m": 9, "r0": "-1133/1048576", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.005454540252685547}
+{"m": 10, "r0": "-2207/4194304", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.01665186882019043}
+{"m": 11, "r0": "-2165/8388608", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.007722377777099609}
+{"m": 12, "r0": "-1067/8388608", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.00946354866027832}
+{"m": 13, "r0": "-33/524288", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.011365890502929688}
+{"m": 14, "r0": "-131/4194304", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.01700305938720703}
+{"m": 15, "r0": "-521/33554432", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.02105998992919922}
+{"m": 16, "r0": "-2075/268435456", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.028057575225830078}
+{"m": 17, "r0": "-517/134217728", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.03838539123535156}
+{"m": 18, "r0": "-2063/1073741824", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.04928231239318848}
+{"m": 19, "r0": "-2059/2147483648", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.06293416023254395}
+{"m": 20, "r0": "-2057/4294967296", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.08837771415710449}
+{"m": 21, "r0": "-2055/8589934592", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.10902023315429688}
+{"m": 22, "r0": "-2053/17179869184", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.15222620964050293}
+{"m": 23, "r0": "-513/8589934592", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.1978287696838379}
+{"m": 24, "r0": "-2051/68719476736", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.2663590908050537}
+{"m": 25, "r0": "-1025/68719476736", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.3047611713409424}
+{"m": 26, "r0": "-1025/137438953472", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.40115857124328613}
+{"m": 27, "r0": "-1025/274877906944", "K_negative_roots": 1, "Q1_roots_to_zero": 0, "seconds": 0.5182878971099854}
+ALL FINITE AUXILIARY CERTIFICATES VERIFIED

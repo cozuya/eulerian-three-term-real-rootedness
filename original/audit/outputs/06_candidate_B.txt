@@ -1,0 +1,39 @@
+{
+ "check": "06_candidate_B",
+ "status": "PASS",
+ "seconds": 204.4,
+ "generic_identities": "all exact zero",
+ "eulerian_triples_m": [
+  1,
+  40
+ ],
+ "counts": {
+  "triples": 40,
+  "separator": 320,
+  "tarski": 960,
+  "sturm": 1312
+ },
+ "sturm_n": [
+  3,
+  90
+ ],
+ "certificates_recomputed_m": [
+  2,
+  40
+ ],
+ "supplied_certificate_json_cross_checked": true,
+ "certificate_pattern_holds_for_all_m_up_to": 40,
+ "first_m_where_pattern_fails": null,
+ "n4_discriminant_positive_on_region": true,
+ "obstruction": {
+  "P_degree": 13,
+  "real_roots_with_multiplicity": 11,
+  "sextic_real_roots": 4,
+  "F_has_9fold_root": true,
+  "c_outside_B_region": true
+ }
+}
+
+real	3m24.716s
+user	3m23.808s
+sys	0m0.032s

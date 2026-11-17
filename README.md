@@ -3,11 +3,16 @@
 **By Chris Ozols, with AI-assisted proof development and formalization.**
 
 > **Lean-checked proof; no novelty claim.** The sharp criterion proved here extends the
-> sufficient region of Athanasiadis's Example 3.3. The searches made for this project did not
-> find it stated or proved elsewhere, but they were brief, and one related preprint could not
-> be retrieved for independent checking. I do not claim novelty, first discovery, or priority. This repository makes
-> the argument and its Lean checks available to anyone investigating the question. See the
-> [prior-art review](PRIOR_ART.md).
+> sufficient region of Athanasiadis's Example 3.3. I do not claim novelty, first discovery,
+> or priority. See the [prior-art review](PRIOR_ART.md).
+>
+> **Follow-up (November 17, 2026).** The original audit could not access
+> [Shi-Mei Ma's *The Eulerian Combinations*](https://www.researchgate.net/publication/413485066_THE_EULERIAN_COMBINATIONS).
+> A later check of the full text found that Theorem 5 proves real-rootedness for every
+> $n\ge 3$ and every real $b$ when $0\le c\le 1$, and Example 6 gives the same
+> $n=3$ discriminant. The result here determines the exact region that works for
+> every $n\ge 3$ when $b,c\ge 0$, including cases outside Ma's strip, such as
+> $(b,c)=(0,2)$.
 
 Let $A_n(x)$ be the Eulerian polynomials, $A_0=1$ and
 
